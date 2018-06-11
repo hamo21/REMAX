@@ -167,7 +167,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`REMAX|HAMO`,"http://twitch.tv/S-F")
+client.user.setGame(`BRFESER`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
   
