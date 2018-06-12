@@ -118,7 +118,7 @@ client.on('message', msg => {
 
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(` •●***WELCOME TO STOP***●•  منور كلان اس بي نتمنا لك اسعد الوفات معن في الكلان  ${member} `) 
+  return channel.send(` •●***WELCOME TO 《LEGEND OF KING》***●•  منور كلان  نتمنا لك اسعد الوفات معن في الكلان  ${member} `) 
 }).catch(console.error)
 })
 
