@@ -109,7 +109,7 @@ client.on('message', msg => {
   .setColor('RANDOM')
   .setThumbnail(`${mentionavatar.avatarURL}`)
   .addField("***شكرا الانضمامك الينا***" ,mentionavatar.username )
-  .setDescription('***WELCOME TO CLAN STOP***')
+  .setDescription('***WELCOME TO CLAN 《LEGEND OF KING》***')
   .setImage('http://www.imgion.com/images/01/Welcome-buddy.jpg')
    message.channel.sendEmbed(EsTeKnAN);
   }
@@ -132,7 +132,7 @@ client.on('guildMemberAdd', member => {
     .setDescription(`منور السيرفر يا حلو :blush:` , `welcome to the server :blush:`)
     .addField(' :bust_in_silhouette:  انت رقم',`**[ ${member.guild.memberCount} ]**`,true)
     .setColor('GREEN')
-    .setFooter('==== WELCOME TO STOP  ====', 'https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png')
+    .setFooter('==== WELCOME TO 《LEGEND OF KING》  ====', 'https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png')
 
 var channel =member.guild.channels.find('name', 'welcome')
 if (!channel) return;
